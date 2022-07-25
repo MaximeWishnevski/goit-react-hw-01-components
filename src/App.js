@@ -22,11 +22,7 @@ function App() {
         title='Upload stats'
         item={data} />
       <FriendsList item={dataFriends} />
-      <TransactionItem items = {transactions}
-        type={transactions.type}
-        amount={transactions.amount}
-        currency={transactions.amount}
-      />
+      <TransactionItem items = {transactions} />
       </Container>
     )
 }

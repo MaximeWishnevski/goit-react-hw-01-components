@@ -1,6 +1,6 @@
 import styles from './Statistics.module.css';
 import PropTypes from 'prop-types';
-import getRandomHexColor from "js/getRandomHexColor";
+
 
 
 
@@ -15,8 +15,7 @@ export default function Statistic({ item,title }) {
             <li className={styles.item} key={id}>
               <span className={styles.label}>{label}</span>
               <span className={styles.label}>{percentage}%</span>
-              style = {{ backgroundColor: getRandomHexColor() }}
-            </li>
+              </li>
           ))}
        </ul>
   </section>

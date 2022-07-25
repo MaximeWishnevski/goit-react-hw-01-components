@@ -7,7 +7,7 @@ export default function Friends(props) {
   return (
     <section>
       <span className={styles.statysOnline} style={{backgroundColor: isOnline ? 'green': 'red'}}></span>
-      <img className={styles.imgUser} src={avatar} alt="User avatar" width="30" />
+      <img className={styles.imgUser} src={avatar} alt="User avatar" width="48" />
       <h2 className={styles.nameUser}>{name}</h2>
     </section>
   )

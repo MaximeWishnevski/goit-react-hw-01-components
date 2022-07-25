@@ -1,12 +1,12 @@
-import Container from "Components/Container/Container";
-import user from './data/user.json';
-import Profile from './Components/Profile/Profile';
-import Statistic from './Components/Statistics/Statistics';
-import data from './data/data.json';
-import dataFriends from './data/friends.json';
-import FriendsList from "Components/Friends/FriendsList";
-import transactions from './data/transactions.json';
-import TransactionItem from "Components/Transaction-history/TransactionsItem";
+import Container from 'Components/Container/Container'
+import user from './data/user.json'
+import Profile from './Components/Profile/Profile'
+import Statistic from './Components/Statistics/Statistics'
+import data from './data/data.json'
+import dataFriends from './data/friends.json'
+import FriendsList from 'Components/Friends/FriendsList'
+import transactions from './data/transactions.json'
+import TransactionItem from 'Components/Transaction-history/TransactionsItem'
 
 function App() { 
   return (

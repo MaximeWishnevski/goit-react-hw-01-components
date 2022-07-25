@@ -1,7 +1,7 @@
-import Transacton from "./Transaction";
+import Transaction from "./Transaction";
 import styles from './TransactionTable.module.css'
 
-export default function TransactionItem({transaction}) { 
+export default function TransactionItem({items}) { 
   return (
     <table className={styles.table}>
       <thead >
@@ -12,12 +12,12 @@ export default function TransactionItem({transaction}) {
         </tr>
       </thead>
       <tbody>
-        {transaction.map(transactions =>
-          <tr key={transactions.id}>
-            <Transacton
-              type={transactions.type}
-              amount={transactions.amount}
-              currency={transactions.currency}
+        {items.map(item =>
+          <tr key={item.id}>
+            <Transaction
+              type={item.type}
+              amount={item.amount}
+              currency={item.currency}
             />
           </tr>
         )}
